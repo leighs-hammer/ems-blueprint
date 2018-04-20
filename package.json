@@ -1,0 +1,30 @@
+{
+  "name": "ems-blueprints",
+  "version": "0.0.1",
+  "description": "Blueprints & schema for messaging datasets",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w ./tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leighs-hammer/ems-blueprint.git"
+  },
+  "keywords": [
+    "blueprint"
+  ],
+  "author": "Leigh Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leighs-hammer/ems-blueprint/issues"
+  },
+  "homepage": "https://github.com/leighs-hammer/ems-blueprint#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "moment": "^2.22.1",
+    "ramda": "^0.25.0"
+  }
+}
